@@ -11,7 +11,7 @@ SRC_URI="https://github.com/ptkinney/ptkutils/archive/refs/tags/v1.0.0.tar.gz ->
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 x86"
 
 RDEPEND=""
 DEPEND="${RDEPEND}"
