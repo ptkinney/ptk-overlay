@@ -22,6 +22,6 @@ src_compile() {
 }
 
 src_install() {
-	dolib.so ptkutils.so
-	doheader ptk.h
+	dobin detab
+	dobin stamp
 }
