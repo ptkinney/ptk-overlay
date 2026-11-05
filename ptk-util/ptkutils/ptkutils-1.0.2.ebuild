@@ -7,7 +7,7 @@ inherit toolchain-funcs
 
 DESCRIPTION="My utilities."
 HOMEPAGE="https://github.com/ptkinney/ptkutils"
-SRC_URI="https://github.com/ptkinney/ptkutils/archive/refs/tags/v1.0.2.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://github.com/ptkinney/ptkutils/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
