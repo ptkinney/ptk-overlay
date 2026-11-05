@@ -11,7 +11,7 @@ SRC_URI="https://github.com/ptkinney/libptk/archive/refs/tags/v1.0.1.tar.gz -> $
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 x86"
 
 src_compile() {
 	# Explicitly pass Portage's known ${PV} version straight into the Makefile
