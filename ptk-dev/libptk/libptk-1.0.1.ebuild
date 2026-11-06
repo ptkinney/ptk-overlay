@@ -9,7 +9,7 @@ DESCRIPTION="Basic utility library"
 HOMEPAGE="https://github.com/ptkinney/libptk"
 SRC_URI="https://github.com/ptkinney/libptk/archive/refs/tags/v1.0.1.tar.gz -> ${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="amd64 x86"
 

@@ -9,7 +9,7 @@ DESCRIPTION="My utilities."
 HOMEPAGE="https://github.com/ptkinney/ptkutils"
 SRC_URI="https://github.com/ptkinney/ptkutils/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="amd64 x86"
 
