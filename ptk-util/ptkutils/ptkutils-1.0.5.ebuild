@@ -1,0 +1,29 @@
+# Copyright 2026 Paul Kinney
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+inherit toolchain-funcs
+
+DESCRIPTION="My utilities."
+HOMEPAGE="https://github.com/ptkinney/ptkutils"
+SRC_URI="https://github.com/ptkinney/ptkutils/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
+
+LICENSE="GPL-2"
+SLOT="0"
+KEYWORDS="amd64 x86"
+
+RDEPEND=""
+DEPEND="${RDEPEND}"
+BDEPEND=""
+
+src_compile() {
+	emake CC="$(tc-getCC)" CFLAGS="${CFLAGS}"
+}
+
+src_install() {
+	dobin detab
+	dobin stamp
+	doman detab.1ptk
+	doman stamp.1ptk
+}
