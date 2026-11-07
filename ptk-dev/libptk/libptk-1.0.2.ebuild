@@ -14,7 +14,7 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 
 src_compile() {
-	emake CC="$(tc-getCC)" CFLAGS="${CFLAGS}" VERSION="${VERSION}"
+	emake CC="$(tc-getCC)" CFLAGS="${CFLAGS}" VERSION="${PV}"
 }
 
 src_install() {
