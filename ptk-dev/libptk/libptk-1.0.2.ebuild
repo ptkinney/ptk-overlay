@@ -18,5 +18,7 @@ src_compile() {
 }
 
 src_install() {
-    dolib.so libptk.so.${PV}
+	dolib.so libptk.so.${PV}
+	dosym libptk.so.${PV} /usr/lib/64/libptk.so.1
+	dosym libptk.so.1 /usr/lib64/libptk.so
 }
