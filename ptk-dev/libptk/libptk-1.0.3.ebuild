@@ -21,5 +21,5 @@ src_install() {
 	doheader ptk.h
 	dolib.so libptk.so.${PV}
 	dosym libptk.so.${PV} /usr/$(get_libdir)/libptk.so.$(ver_cut 1)
-	dosym libptk.so.1 /usr/$(get_libdir)/libptk.so
+	dosym libptk.so.$(ver_cut 1) /usr/$(get_libdir)/libptk.so
 }
